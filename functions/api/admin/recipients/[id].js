@@ -1,5 +1,5 @@
 ```javascript
-import { json, fail, admin, csrfOK, sha256, uploadPhoto, removePhoto, photoUrl, secureHeaders } from "../../../../_lib.js";
+import { json, fail, admin, csrfOK, sha256, uploadPhoto, removePhoto, photoUrl, secureHeaders } from "../../_lib.js";
 
 export async function onRequestPut(ctx) {
   if (!await admin(ctx, ctx.request)) return fail("Bạn cần đăng nhập lại.", 401);
