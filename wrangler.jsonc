@@ -1,3 +1,4 @@
+
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "little-blossom",
@@ -7,13 +8,7 @@
     {
       "binding": "DB",
       "database_name": "little-blossom-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "PHOTOS",
-      "bucket_name": "little-blossom-photos"
+      "database_id": "28b6f17c-3f98-4a13-b977-b4cc422f3383"
     }
   ]
 }
